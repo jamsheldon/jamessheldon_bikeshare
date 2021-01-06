@@ -25,7 +25,7 @@ def get_filters():
        city = 'new york city'
 
     while (city != 'washington') and (city != 'chicago') and (city != 'new york city'):
-        print("Oops, sorry I can't find that city. I only have any data for Chicago, New York City or Washington")
+        print("Oops, sorry I cannot find that city. I only have any data for Chicago, New York City or Washington")
         city = input('Which city (Chicago, New York City, Washington) you would like to view data for: ')
         city = city.lower()
         if city == 'new york' or city == 'nyc' or city == 'ny':
