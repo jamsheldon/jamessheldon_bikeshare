@@ -41,7 +41,7 @@ def get_filters():
         month = month.lower()
         day = 'all'
     if f == 'both':
-        month = input('Which month? January, Feburary, March, April, May or June? ')
+        month = input('Which month would you like to view? January, Feburary, March, April, May or June? ')
         month = month.lower()
         day = input('Which day of the week would you like to filter? ')
         day = day.lower()
