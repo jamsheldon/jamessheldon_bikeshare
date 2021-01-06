@@ -21,7 +21,7 @@ def get_filters():
     city = input('Which city (Chicago, New York City, Washington) would you like to view data for: ')
     city = city.lower()
 
-    if city == 'new york' or city == 'nyc' or city == 'ny':
+    if city == 'new york' or city == 'nyc' or city == 'ny' or city == 'NY':
        city = 'new york city'
 
     while (city != 'washington') and (city != 'chicago') and (city != 'new york city'):
