@@ -11,4 +11,4 @@ Python code which can be used to analyse bikeshare data across New York, Chicago
 'chicago.csv', 'new_york_city.csv','washington.csv',bikeshare.py
 
 ### Credits
-Udacity Intro to Data Science course!
+Udacity Intro to Data Science course & Motivate who provided the data.
